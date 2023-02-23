@@ -1,117 +1,24 @@
 @font-face {
   font-family: "Poppins-Reguler";
-  src: url("assets/fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("assets/fonts/Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("../../assets/fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("../../assets/fonts/Poppins-Regular.woff") format("woff"), url("../../assets/fonts/Poppins-Regular.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: "Poppins-Bold";
-  src: url("assets/fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("assets/fonts/Poppins-Bold.woff") format("woff"), url("assets/fonts/Poppins-Bold.ttf") format("truetype");
+  src: url("../../assets/fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("../../assets/fonts/Poppins-Bold.woff") format("woff"), url("../../assets/fonts/Poppins-Bold.ttf") format("truetype");
   /* Safari, Android, iOS */
-}
-
-.fixed-h {
-  position: fixed;
-  z-index: 99;
-  top: 0;
-}
-
-.h-body {
-  height: 100px;
-}
-
-.h-body .menu-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.h-body .menu-head .m-list {
-  margin: 0px 25px;
-  cursor: pointer;
-}
-
-.h-body .menu-head .m-list a {
-  text-transform: uppercase;
-  color: #7f7f89;
-  font-size: 16px;
-  font-family: "Poppins-Medium";
-  text-decoration: none;
-  -webkit-transition: ease 0.5s;
-  transition: ease 0.5s;
-}
-
-.h-body .menu-head .m-list a:hover {
-  color: black;
-}
-
-.h-mobile-body {
-  display: none !important;
-}
-
-@media (max-width: 992px) {
-  .menu-head {
-    display: none !important;
-  }
-  .press-login {
-    display: none !important;
-  }
-  .h-mobile-body {
-    background-color: white;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 1px black;
-            box-shadow: 1px black;
-    position: fixed;
-    bottom: 0;
-    height: 70px;
-    display: block !important;
-    font-size: 14px;
-    font-family: "Poppins-Medium";
-    text-decoration: none;
-    padding-top: 15px;
-    width: 100%;
-  }
-  .h-mobile-body .list-mobile-m {
-    width: 15%;
-    text-decoration: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .h-mobile-body .list-mobile-m section {
-    color: #7f7f89;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-transition: ease 0.7s;
-    transition: ease 0.7s;
-    cursor: pointer;
-    padding-top: 10px;
-  }
-  .h-mobile-body .list-mobile-m section i {
-    font-size: 20px;
-  }
-  .h-mobile-body .list-mobile-m section:hover {
-    color: #0d6efd;
-  }
 }
 
 @font-face {
   font-family: "Poppins-Medium";
-  src: url("assets/fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("assets/fonts/Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("../../assets/fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("../../assets/fonts/Poppins-Medium.woff") format("woff"), url("../../assets/fonts/Poppins-Medium.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: "Poppins-SemiBold";
-  src: url("assets/fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("assets/fonts/Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  src: url("../../assets/fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Poppins-SemiBold.woff") format("woff"), url("../../assets/fonts/Poppins-SemiBold.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 
