@@ -1,0 +1,76 @@
+// @fontH:
+@import "./var";
+.fixed-h {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  // display: none;
+}
+.h-body {
+  height: 100px;
+  .menu-head {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    .m-list {
+      margin: 0px 25px;
+      cursor: pointer;
+      a {
+        text-transform: uppercase;
+        color: $lightText;
+        font-size: 16px;
+        font-family: $poppinsMedium;
+        text-decoration: none;
+        transition: ease 0.5s;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+.h-mobile-body {
+  display: none !important;
+}
+// mobile header
+@media (max-width: 992px) {
+  .menu-head {
+    display: none !important;
+  }
+  .press-login {
+    display: none !important;
+  }
+  .h-mobile-body {
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(black, 0.15);
+    box-shadow: 1px black;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    display: block !important;
+    font-size: 14px;
+    font-family: $poppinsMedium;
+    text-decoration: none;
+    padding-top: 15px;
+    width: 100%;
+    .list-mobile-m {
+      width: 15%;
+      // background-color: red;
+      text-decoration: none;
+      display: flex;
+      section {
+        color: $lightText;
+        flex: 1;
+        transition: ease 0.7s;
+        i {
+          font-size: 20px;
+        }
+        cursor: pointer;
+        padding-top: 10px;
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@keyframes promoPrice {
+  0% {
+    font-size: 55px;
+  }
+  25% {
+    font-size: 60px;
+  }
+  75% {
+    font-size: 65px;
+  }
+  100% {
+    font-size: 70px;
+  }
+}
+
+// class animate
+.animate_promo {
+  --webkit-animation-name: promoPrice;
+  animation-name: promoPrice;
+  --webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  --webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
