@@ -37,24 +37,38 @@
         </section>
         <section class="menu-head">
           <section class="m-list">
-            <a class="text-primary" href="#"> Home</a>
+            <a class="text-primary" id="link-m-list" href="#">Home</a>
           </section>
           <section class="m-list">
-            <a href="#tema">Tema</a>
+            <a id="link-m-list" href="#tema">Tema</a>
           </section>
           <section class="m-list">
-            <a href="#fitur"> Fitur</a>
+            <a id="link-m-list" href="#fitur"> Fitur</a>
           </section>
           <section class="m-list">
-            <a href="#paket"> Paket</a>
+            <a id="link-m-list" href="#paket"> Paket</a>
           </section>
         </section>
         <section class="right-head">
-          <a href="#" class="btn btn-liner-outline-p me-2 shadow-sm">Daftar</a>
-          <a href="#" class="btn ms-2 btn-liner-p shadow-sm press-login"
+          <a
+            href="./register.html"
+            class="btn btn-liner-outline-p me-2 shadow-sm"
+            >Daftar</a
+          >
+          <a
+            href="./login.html"
+            class="btn ms-2 btn-liner-p shadow-sm press-login"
             >Login</a
           >
         </section>
+        <!-- ketika sudah login -->
+        <!-- <section class="right-head">
+          <a
+            href="./dashboard.html"
+            class="btn ms-2 btn-liner-p shadow-sm press-login"
+            ><i class="fa-solid fa-grid-horizontal"></i>Dashboard</a
+          >
+        </section> -->
       </section>
     </header>
     <!-- header -->
@@ -88,7 +102,7 @@
             <p>Paket</p>
           </section>
         </a>
-        <a href="#" class="list-mobile-m text-center">
+        <a href="./login.html" class="list-mobile-m text-center">
           <section>
             <i class="fa-solid fa-right-to-bracket"></i>
             <p>Login</p>
@@ -140,66 +154,108 @@
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
         <div class="border shadow box-list">
           <img
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
         <div class="border shadow box-list">
           <img
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
         <div class="border shadow box-list">
           <img
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
         <div class="border shadow box-list">
           <img
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
         <div class="border shadow box-list">
           <img
             src="https://satumomen.com/themes/adat-batak/thumbnail.webp"
             alt="img"
           />
-          <section
-            class="border text-center d-flex align-items-center justify-content-center"
-          >
-            Red Adat Wedding
+
+          <section class="border text-center">
+            <p class="d-flex align-items-center h-100 justify-content-center">
+              Red Adat Wedding
+            </p>
           </section>
+
+          <div class="wrap-preview">
+            <div class="preview-design">
+              <a href="#" class="btn bg-white shadow mx-auto">Preview</a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="text-center">
@@ -581,9 +637,12 @@
       </section>
     </footer>
     <!-- wa icon -->
-    <section class="btn-nav shadow">
+    <a
+      href="https://wa.me/6285396740599?text=Hallo Admin, Undangan Digital !"
+      class="btn-nav shadow"
+    >
       <i class="fa-brands fa-whatsapp"></i>
-    </section>
+    </a>
     <!-- js include -->
     <script
       src="assets/plugin/bootstrap/js/bootstrap.bundle.min.js"

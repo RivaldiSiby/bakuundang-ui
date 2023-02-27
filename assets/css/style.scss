@@ -32,6 +32,7 @@
     /* Pretty Modern Browsers */ url("../../assets/fonts/Poppins-SemiBold.ttf")
       format("truetype"); /* Safari, Android, iOS */
 }
+// home
 @import "./component/animation";
 @import "./component/laylouts";
 @import "./component/header";
@@ -41,3 +42,9 @@
 @import "./component/paket";
 @import "./component/faqs";
 @import "./component/footer";
+
+// dashboard
+@import "./component/order";
+
+// login & register
+@import "./component/login";

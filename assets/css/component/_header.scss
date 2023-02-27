@@ -32,6 +32,12 @@
 .h-mobile-body {
   display: none !important;
 }
+// dashboard
+.text-name-user {
+  padding: 10px;
+  padding-top: 10px;
+  font-family: $poppinsMedium;
+}
 // mobile header
 @media (max-width: 992px) {
   .menu-head {

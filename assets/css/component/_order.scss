@@ -1,0 +1,110 @@
+@import "./var";
+
+.order-body {
+  height: auto;
+  width: 100%;
+}
+.list-order-wrap {
+  padding: 25px 0px;
+  .order-box {
+    height: 200px;
+    margin-bottom: 50px;
+    // border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    h5 {
+      font-size: 25px;
+    }
+    .h-order-box {
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      margin: 0px 15px;
+      border-bottom: 4px solid $darkText;
+      section {
+        button {
+          margin: 0px 10px;
+        }
+      }
+    }
+    .b-order-box {
+      flex: 1;
+      p {
+        font-weight: bold;
+        font-size: 16px;
+      }
+      button {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 12px 17px;
+      }
+    }
+  }
+}
+.d-hide-foot {
+  display: none !important;
+}
+
+@media (max-width: 992px) {
+  .h-order-box {
+    h5 {
+      font-size: 20px !important;
+    }
+    button {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+    }
+  }
+  .b-order-box {
+    p {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+    }
+    button {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .h-order-box {
+    h5 {
+      font-size: 16px !important;
+    }
+    button {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+      padding: 4px 8px !important;
+      display: none;
+    }
+  }
+  .b-order-box {
+    flex-direction: column;
+    padding-top: 15px;
+    p {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+    }
+    button {
+      font-size: 12px !important;
+      margin: 0px 5px !important;
+    }
+    section {
+      padding: 0px 5px !important;
+    }
+    .foot-order-box {
+      margin-bottom: 15px;
+      justify-content: space-between !important;
+      padding-right: 5px !important;
+      color: red !important;
+      .d-hide-foot {
+        display: block !important;
+      }
+      button {
+        font-size: 12px !important;
+        margin: 0px 5px !important;
+        padding: 4px 8px !important;
+      }
+    }
+  }
+}
